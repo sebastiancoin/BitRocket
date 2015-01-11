@@ -33,14 +33,7 @@
         <li><a href="#" style="color:black">Link 1</a></li>
         <li><a href="#" style="color:black">Link 2</a></li>
         <li><a href="#" style="color:black">Link 3</a></li>
-        <li class="dropdown">
-          <a href="#" style="color:black" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#" style="color:black">Action</a></li>
-            <li><a href="#" style="color:black">Another action</a></li>
-            <li><a href="#" style="color:black">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#" style="color:black">Separated link</a></li>
+        
           </ul>
         </li>
       </ul>

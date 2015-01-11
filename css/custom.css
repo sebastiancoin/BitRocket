@@ -80,6 +80,12 @@
 /** 1.06 NAVS **/
 
 /** 1.07 NAVBAR **/
+#navlist li
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}
 .navbar {
 	margin-bottom:0px !important;
 }
