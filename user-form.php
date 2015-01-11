@@ -1,4 +1,19 @@
-
+<!DOCTYPE html>
+<html lang="">
+<head>
+<title>BitRocket User</title>
+<meta charset="utf-8" />
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" media="all" href="https://www.formstack.com/forms/css/3/ie.css?20140508" />
+<![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="all" href="https://www.formstack.com/forms/css/3/ie7.css" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" type="text/css" media="all" href="https://www.formstack.com/forms/css/3/ie6fixes.css" /><![endif]-->
+<link rel="stylesheet" type="text/css" href="https://www.formstack.com/forms/css/3/reset.css?20140508" />
+<link rel="stylesheet" type="text/css" href="https://www.formstack.com/forms/css/3/default.css?20141219" />
+<link rel="stylesheet" href="form-none.css">
+<style type="text/css">
+</style>
+</head>
 <body class="fsBody" id="fsLocal">
 <form method="post" novalidate enctype="multipart/form-data" action="https://www.formstack.com/forms/index.php" class="fsForm fsSingleColumn fsMaxCol1" id="fsForm1908724">
 <input type="hidden" name="form" value="1908724" />
@@ -94,8 +109,7 @@ window.form1908724 = form1908724;
 };
 </script>
 </form>
-<img src="https://www.formstack.com/forms/count.php?1908724" alt="Form View Counter" width="1" height="1" border="0" />
-<p style="display:block;width:128px;height:48px;margin:18px auto;"><a href="http://www.formstack.com/?fa=f,1908724" target="_blank"  style="display:block;width:128px;height:48px;" title="Powered by Formstack Online Forms"><img src="https://www.formstack.com/forms/images/2/poweredByFormstack.png" alt="Formstack Online Forms" style="border:0; vertical-align: text-top;" /><span style="display:none;">Formstack Online Forms</span></a></p>
-</body>
 
+</body>
+</html>
 

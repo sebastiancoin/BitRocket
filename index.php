@@ -8,6 +8,7 @@
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="images/Favicon2.png" type="image/x-icon" />
+<link href="form-none.css" rel="stylesheet" />
 </head>
 
 <body>
