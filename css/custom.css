@@ -207,6 +207,9 @@ h1{
 	color:#8CC63E;
 	font-family:roboto;
 }
+.fsBody .fsSectionHeader{
+	background-color:#EFEFED !important;
+}
 
 /** 2.05 BUTTONS **/
 .btn-conv{
@@ -240,6 +243,12 @@ h1{
 /** 2.06 IMAGES **/
 
 /** 2.07 HELPERS **/
+#map-canvas {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+		height:400px;
+      }
 
 
 /***************************************************

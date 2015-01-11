@@ -87,6 +87,7 @@
         </div><!--thumbnail-->
     </div>
 </div>
+<div id="map-canvas"></div>
 
 <div class="container-fluid row-color">
 	<div class="container footer-padding" >
@@ -113,5 +114,52 @@
 <script src="https://code.jquery.com/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+ <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script>
+      var LocationData = [
+    [25.7999913,-80.2005348, "400 Northwest 26th Street Miami, FL 33127" ], 
+    [25.803673, -80.199011, "187 Northwest 28th StreetMiami, FL 33127" ], 
+    [25.784831,-80.138872, "1340 N Michigan Ave #6bMiami Beach, FL 33139" ], 
+    [25.862359, -80.324403, "7810 Northwest 98th Street Hialeah, FL 33016" ], 
+    [25.941691, -80.299319, "18300 Northwest 62nd Avenue #200 Hialeah, FL 33015" ], 
+    [25.862359, -80.324403, "6710 Southwest 117th Avenue Kendall, FL 33183" ], 
+    [25.7051662, -80.3829424, "7810 Northwest 98th Street Hialeah, FL 33016" ],   
+    [25.574861, -80.341021, "20601 Old Cutler Road Cutler Bay, FL 33189" ],   
+    [26.00963, -80.158981, "2544 Van Buren Street Hollywood, FL 33020" ], 
+    [25.6703465, -80.32099, "10775 South Dixie Highway Pinecrest, FL 33156" ], 
+];
+ 
+function initialize()
+
+{
+    var map = 
+        new google.maps.Map(document.getElementById('map-canvas'));
+    var bounds = new google.maps.LatLngBounds();
+    var infowindow = new google.maps.InfoWindow();
+    for (var i in LocationData)
+    {
+        var p = LocationData[i];
+        var latlng = new google.maps.LatLng(p[0], p[1]);
+        bounds.extend(latlng);
+         var iconBase = 'http://i.imgur.com/8KF66dS.png';
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map,
+            icon: iconBase,
+            title: p[2]
+        });
+     
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow.setContent(this.title);
+            infowindow.open(map, this);
+        });
+    }
+     
+    map.fitBounds(bounds);
+}
+ 
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
 </body>
 </html>
