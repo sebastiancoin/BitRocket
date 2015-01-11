@@ -23,7 +23,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="images/BitRocket_Logo.png" width="200" height="41" class="img-responsive"</a>
+      <a class="navbar-brand" href="index.php"><img src="images/BitRocket_Logo.png" width="200" height="41" class="img-responsive"</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -31,8 +31,8 @@
       
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.php" >Home</a></li>
-        <li><a href="#" style="color:black">Business Search</a></li>
-        <li><a href="#" style="color:black">Contact Us</a></li>
+        <li><a href="business-search.php" style="color:black">Business Search</a></li>
+        <li><a href="contact.php" style="color:black">Contact Us</a></li>
         
           </ul>
         </li>
@@ -40,12 +40,12 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
+<div class="row row-pic">
 <div class="container container-content">
-     <h1 class="text-center spacing-lg" style="font-family:roboto;">Welcome To the Sign-up</h1>                   
+     <h1 class="text-center spacing-lg" style="font-family:roboto; color:white;">Welcome To the Sign-up</h1>                   
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
         
-        <div class="fsBody" id="fsLocal">
+        <div class="fsBody center-block" id="fsLocal">
     <form method="post" novalidate enctype="multipart/form-data" action="https://www.formstack.com/forms/index.php" class="fsForm fsSingleColumn fsMaxCol1" id="fsForm1908724">
     <input type="hidden" name="form" value="1908724" />
     <input type="hidden" name="viewkey" value="UJBxY3tOal" />
@@ -153,80 +153,7 @@
         
    </div><!--col-lg-6-->
     </div>
-    <div id="map-canvas"></div>
-
-<div class="container-fluid row-color">
-	<div class="container footer-padding" >
-    	<div class="col-lg-9 col-md-5 col-sm-5 col-xs-12">
-    		<h2>About</h2>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
-        </div><!--col-lg-5-->
-        <div class="col-lg-3 col-md-7 col-sm-7 col-xs-12">
-        	<ul style="list-style:none">
-            	<li >
-                	<a style="margin-right:20%; font-size:"><p>Home</p></a>
-                    <a href="business-search.php" style="margin-right:20%"><p>Business Search</p></a>
-                    <a style="margin-right:20%" href="contact.php"><p>Contact</p></a>
-                </li>
-            </ul>
-        </div>    
-    </div><!--container-->
-</div><!--container-fluid-->
-
-    
-
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://code.jquery.com/jquery.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-    <script>
-      var LocationData = [
-    [25.7999913,-80.2005348, "400 Northwest 26th Street Miami, FL 33127" ], 
-    [25.803673, -80.199011, "187 Northwest 28th StreetMiami, FL 33127" ], 
-    [25.784831,-80.138872, "1340 N Michigan Ave #6bMiami Beach, FL 33139" ], 
-    [25.862359, -80.324403, "7810 Northwest 98th Street Hialeah, FL 33016" ], 
-    [25.941691, -80.299319, "18300 Northwest 62nd Avenue #200 Hialeah, FL 33015" ], 
-    [25.862359, -80.324403, "6710 Southwest 117th Avenue Kendall, FL 33183" ], 
-    [25.7051662, -80.3829424, "7810 Northwest 98th Street Hialeah, FL 33016" ],   
-    [25.574861, -80.341021, "20601 Old Cutler Road Cutler Bay, FL 33189" ],   
-    [26.00963, -80.158981, "2544 Van Buren Street Hollywood, FL 33020" ], 
-    [25.6703465, -80.32099, "10775 South Dixie Highway Pinecrest, FL 33156" ], 
-];
- 
-function initialize()
-
-{
-    var map = 
-        new google.maps.Map(document.getElementById('map-canvas'));
-    var bounds = new google.maps.LatLngBounds();
-    var infowindow = new google.maps.InfoWindow();
-    for (var i in LocationData)
-    {
-        var p = LocationData[i];
-        var latlng = new google.maps.LatLng(p[0], p[1]);
-        bounds.extend(latlng);
-         var iconBase = 'http://i.imgur.com/8KF66dS.png';
-        var marker = new google.maps.Marker({
-            position: latlng,
-            map: map,
-            icon: iconBase,
-            title: p[2]
-        });
-  
-
-        google.maps.event.addListener(marker, 'click', function() {
-            infowindow.setContent(this.title);
-            infowindow.open(map, this);
-        });
-    }
-     
-    map.fitBounds(bounds);
-}
- 
-google.maps.event.addDomListener(window, 'load', initialize);
-
-    </script>
+   </div><!--row-->
+   
 </body>
 </html>

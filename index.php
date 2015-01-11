@@ -31,7 +31,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.php" style="color:black">Home</a></li>
         <li><a href="business-search.php" style="color:black">Business Search</a></li>
-        <li><a href=""contact.php" style="color:black">Contact Us</a></li>
+        <li><a href="contact.php" style="color:black">Contact Us</a></li>
         
           </ul>
         
@@ -46,7 +46,7 @@
  	<div class="container text-center">
          <div class="col-lg-10 col-lg-offset-1 jumbotron-position">
           <h1 style="color:white"  class="spacing-md">Use Bitcoins at your favorite places</h1>
-          <p style="color:white" class="hidden-xs">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+          <p style="color:white" class="hidden-xs">How to encourage your favorite Business to accept your favorite currency? Make a campaign to show them that you want their business and others do too!</p>
           <p><a class="btn btn-conv btn-lg" href="sign-up.php" role="button">Sign Up</a></p>
   	</div>
    </div><!--container-->   
@@ -61,7 +61,7 @@
         	<img src="images/Revenue.png" height="170" width="170" class="img-responsive">
             <div class="caption">
             	<h3 class="text-center">Revenue</h3>
-                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                 <p>Increase Revenue by tapping into 1.2 million Bitcoin wallet, translating into hundreds of purchases a year</p>
 
             </div><!--caption-->
         </div><!--thumbnail-->
@@ -70,8 +70,8 @@
      	<div class="thumbnail thumbnail-borderless">
         	<img src="images/Community.png" height="170" width="170" class="img-responsive">
              <div class="caption">
-            	<h3 class="text-center">Community</h3>
-                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            	<h3 class="text-center">Network Effects</h3>
+                 <p>As bitcoin usage continues to grow the value for consumers and businesses collectively grow</p>
 
             </div><!--caption-->
         </div><!--thumbnail-->
@@ -80,8 +80,8 @@
      	<div class="thumbnail thumbnail-borderless">
         	<img src="images/Sale.png" height="170" width="170" class="img-responsive">
              <div class="caption">
-            	<h3 class="text-center">Sales</h3>
-                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            	<h3 class="text-center">Special Promotions</h3>
+                 <p>Interact with the community by implementing promotional campaigns</p>
 
             </div><!--caption-->
         </div><!--thumbnail-->
@@ -93,7 +93,7 @@
 	<div class="container footer-padding" >
     	<div class="col-lg-9 col-md-5 col-sm-5 col-xs-12">
     		<h2>About</h2>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+            <p>BitRocket is a system that allows bitcoin users to recruit bitcoin pledges for businesses for them to start accepting bitcoin as payment. </p>
         </div><!--col-lg-5-->
         <div class="col-lg-3 col-md-7 col-sm-7 col-xs-12">
         	<ul style="list-style:none">

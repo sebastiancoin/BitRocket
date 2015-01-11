@@ -96,7 +96,7 @@
 	<div class="container footer-padding" >
     	<div class="col-lg-9 col-md-5 col-sm-5 col-xs-12">
     		<h2>About</h2>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+            <p>BitRocket is a system that allows bitcoin users to recruit bitcoin pledges for businesses for them to start accepting bitcoin as payment. </p>
         </div><!--col-lg-5-->
         <div class="col-lg-3 col-md-7 col-sm-7 col-xs-12">
         	<ul style="list-style:none">

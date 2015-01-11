@@ -70,6 +70,9 @@
 /**	1.01 GLYPHICONS **/
 
 /** 1.02 DROPDOWNS **/
+section{
+	padding:0px 0px;
+}
 
 /** 1.03 BUTTON GROUPS **/
 
@@ -78,6 +81,17 @@
 /** 1.05 INPUT GROUPS **/
 
 /** 1.06 NAVS **/
+.row-pic{
+	background-image:
+	url(../images/miami11.jpg);
+	background-repeat:no-repeat;
+}
+.row-pic2{
+	background-image:
+	url(../images/miami11.jpg);
+	width:100%;
+	background-repeat:no-repeat;
+}
 
 /** 1.07 NAVBAR **/
 #navlist li

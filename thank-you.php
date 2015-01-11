@@ -23,7 +23,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="images/BitRocket_Logo.png" width="200" height="41" class="img-responsive"</a>
+      <a class="navbar-brand" href="index.php"><img src="images/BitRocket_Logo.png" width="200" height="41" class="img-responsive"</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -31,8 +31,8 @@
       
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.php" >Home</a></li>
-        <li><a href="#" style="color:black">Business Search</a></li>
-        <li><a href="#" style="color:black">Contact Us</a></li>
+        <li><a href="business-search.php" style="color:black">Business Search</a></li>
+        <li><a href="contact.php" style="color:black">Contact Us</a></li>
         
           </ul>
         </li>
@@ -40,6 +40,8 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+<div class="row row-pic2">
 <div class="container container-content">
      <h1 class="text-center spacing-lg" style="font-family:roboto;">Thank You For Your Info</h1>                   
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -382,23 +384,6 @@ window.form1908735 = form1908735;
 </div>
 </div>
 </div>
-<div class="container-fluid row-color">
-	<div class="container footer-padding" >
-    	<div class="col-lg-9 col-md-5 col-sm-5 col-xs-12">
-    		<h2>About</h2>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
-        </div><!--col-lg-5-->
-        <div class="col-lg-3 col-md-7 col-sm-7 col-xs-12">
-        	<ul style="list-style:none">
-            	<li >
-                	<a style="margin-right:20%; font-size:"><p>Home</p></a>
-                    <a style="margin-right:20%"><p>Business Search</p></a>
-                    <a style="margin-right:20%"><p>Contact Us</p></a>
-                </li>
-            </ul>
-        </div>    
-    </div><!--container-->
-</div><!--container-fluid-->
 
 
 </body>
