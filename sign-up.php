@@ -1,20 +1,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>User Sign Up</title>
 <link href="css/custom.css" rel="stylesheet">
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="images/Favicon2.png" type="image/x-icon" />
-<link rel="stylesheet" href="form-none.css">
+<link href="form-none.css" rel="stylesheet" />
 <link rel="stylesheet" type="text/css" href="https://www.formstack.com/forms/css/3/reset.css?20140508" />
 <link rel="stylesheet" type="text/css" href="https://www.formstack.com/forms/css/3/default.css?20141219" />
-<link rel="stylesheet" href="form-none.css">
 </head>
-
 
 <body>
 <nav class="navbar navbar-default">
@@ -34,9 +30,9 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" style="color:black">Link 1</a></li>
-        <li><a href="#" style="color:black">Link 2</a></li>
-        <li><a href="#" style="color:black">Link 3</a></li>
+        <li><a href="sign-up.php" style="color:black">Home</a></li>
+        <li><a href="#" style="color:black">Business Search</a></li>
+        <li><a href="#" style="color:black">Contact Us</a></li>
         
           </ul>
         </li>
@@ -44,13 +40,11 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-</div>
 
-<div class="container-fluid row-color">
-	<div class="container container-content" >
-    	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-
-				<body class="fsBody" id="fsLocal">
+<div class="container">
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+	
+    <div class="fsBody" id="fsLocal">
 <form method="post" novalidate enctype="multipart/form-data" action="https://www.formstack.com/forms/index.php" class="fsForm fsSingleColumn fsMaxCol1" id="fsForm1908724">
 <input type="hidden" name="form" value="1908724" />
 <input type="hidden" name="viewkey" value="UJBxY3tOal" />
@@ -71,7 +65,7 @@
 <div class="fsPage" id="fsPage1908724-1">
 <div class="fsSection fs1Col" id="fsSection29626063">
 <div class="fsSectionHeader">
-<h2 class="fsSectionHeading">Non-Profit: Donation Form</h2>
+<h2 class="fsSectionHeading form-heading">Business Nomination</h2>
 </div>
 <div id="fsRow1908724-2" class="fsRow fsFieldRow fsLastRow">
 <div class="fsRowBody fsCell fsFieldCell fsFirst fsLast fsLabelVertical fsSpan100" id="fsCell29626064" lang="en">
@@ -105,7 +99,7 @@
 <div class="fsRowBody fsCell fsFieldCell fsFirst fsLast fsLabelVertical fsSpan100" id="fsCell29626068" lang="en">
 <label id="label29626068" class="fsLabel" for="field29626068">Amount you would like to donate                                            </label>
 <span class="fsCurrency"></span>
-<input type="number" step="any" id="field29626068" name="field29626068"  value="0.00" class="fsField fsFormatNumber fsNumberMin-0.00 fsNumberDecimals-2" min="0.00" />
+<input type="number" step="any" id="field29626068" name="field29626068"  class="fsField fsFormatNumber fsNumberDecimals-2" />
 </div>
 </div>
 </div>
@@ -120,22 +114,6 @@ type="submit"
 value="Submit Form" />
 <div class="clear"></div>
 </div>
-</form>
-	
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        
-        </div>
-	
-    </div>
-</div>
-
-
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://code.jquery.com/jquery.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://www.formstack.com/forms/js/3/jquery.min.js"></script>
 <link href="https://www.formstack.com/forms/css/3/jquery-ui.css?20140508" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="https://www.formstack.com/forms/js/3/jquery-ui.min.js?20140508"></script>
@@ -160,7 +138,15 @@ form1908724.plugins.analytics.trackBottleneck();
 window.form1908724 = form1908724;
 };
 </script>
+</form>
 
-
- </body>
+</div>
+    
+    
+    
+    
+    
+    </div>
+</div>
+</body>
 </html>

@@ -14,7 +14,8 @@
 <style type="text/css">
 </style>
 </head>
-<body class="fsBody" id="fsLocal">
+<body>
+<div class="fsBody" id="fsLocal">
 <form method="post" novalidate enctype="multipart/form-data" action="https://www.formstack.com/forms/index.php" class="fsForm fsSingleColumn fsMaxCol1" id="fsForm1908724">
 <input type="hidden" name="form" value="1908724" />
 <input type="hidden" name="viewkey" value="UJBxY3tOal" />
@@ -35,7 +36,7 @@
 <div class="fsPage" id="fsPage1908724-1">
 <div class="fsSection fs1Col" id="fsSection29626063">
 <div class="fsSectionHeader">
-<h2 class="fsSectionHeading">Non-Profit: Donation Form</h2>
+<h2 class="fsSectionHeading form-heading">Business Nomination</h2>
 </div>
 <div id="fsRow1908724-2" class="fsRow fsFieldRow fsLastRow">
 <div class="fsRowBody fsCell fsFieldCell fsFirst fsLast fsLabelVertical fsSpan100" id="fsCell29626064" lang="en">
@@ -110,6 +111,7 @@ window.form1908724 = form1908724;
 </script>
 </form>
 
+</div>
 </body>
 </html>
 

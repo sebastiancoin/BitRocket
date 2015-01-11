@@ -8,7 +8,6 @@
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="images/Favicon2.png" type="image/x-icon" />
-<link href="form-none.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -23,16 +22,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="images/BitRocket_Logo.png" width="200" height="41" class="img-responsive"</a>
+      <a class="navbar-brand" href="sign-up.php"><img src="images/BitRocket_Logo.png" width="200" height="41" class="img-responsive"</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" style="color:black">Link 1</a></li>
-        <li><a href="#" style="color:black">Link 2</a></li>
-        <li><a href="#" style="color:black">Link 3</a></li>
+        <li><a href="sign-up.php" style="color:black">Home</a></li>
+        <li><a href="#" style="color:black">Business Search</a></li>
+        <li><a href="#" style="color:black">Contact Us</a></li>
         
           </ul>
         </li>
