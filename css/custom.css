@@ -210,6 +210,9 @@ h1{
 .fsBody .fsSectionHeader{
 	background-color:#EFEFED !important;
 }
+.fsForm .fsSubmit{
+	background-color:transparent !important;
+}
 
 /** 2.05 BUTTONS **/
 .btn-conv{

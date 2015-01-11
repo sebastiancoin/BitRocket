@@ -1,9 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bit Rocket</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Business Search</title>
 <link href="css/custom.css" rel="stylesheet">
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
@@ -11,7 +10,6 @@
 </head>
 
 <body>
-
 <nav class="navbar navbar-default">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -31,7 +29,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.php" style="color:black">Home</a></li>
         <li><a href="business-search.php" style="color:black">Business Search</a></li>
-        <li><a href=""contact.php" style="color:black">Contact Us</a></li>
+        <li><a style="color:black" href="contact.php">Contact Us</a></li>
         
           </ul>
         
@@ -40,54 +38,59 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<!--begin jumbotron-->
-
-<div class="jumbotron">
+<div class="jumbotron jumbotron2" style="margin-bottom: 0px;">
  	<div class="container text-center">
          <div class="col-lg-10 col-lg-offset-1 jumbotron-position">
-          <h1 style="color:white"  class="spacing-md">Use Bitcoins at your favorite places</h1>
+          <h1 style="color:white"  class="spacing-md">Business that have been Requested</h1>
           <p style="color:white" class="hidden-xs">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-          <p><a class="btn btn-conv btn-lg" href="sign-up.php" role="button">Sign Up</a></p>
+         
   	</div>
    </div><!--container-->   
 </div><!--jumbotron-->
 
-<div class="container">
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 spacing-lg">
-		<h1 class="text-center">Why Use BitRocket?</h1>
-	</div><!--col-lg-12-->
+<div class="container container-content">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    	<h1 class="text-center spacing-lg" style="color:#8CC63E">Current Businesses</h1>
+    </div>
+    <!--business-1-->
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 spacing-lg">
+    	<img  class=" img-responsive center-block img-circle" src="images/thelab.jpg" height="250" width="250" />
+    </div>
+    
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 spacing-lg">
+    	<h3 class="text-center">The Lab Miami</h3>
+        <p style="text-transform:lowercase">THE LAB MIAMI IS A CAMPUS FOR CREATIVE ENTREPRENEURS. WE CONVERTED A 10,000 SQFT WAREHOUSE IN THE WYNWOOD ARTS DISTRICT INTO A COLLABORATIVE WORK AND EVENT SPACE. IT IS A COLLISION POINT FOR MIAMI'S FORWARD-THINKING MINDS.</p>
+        <span class="btn btn-primary">Amount Pledged so far: .9 btc</span> 
+        <button onclick="myFunction()" class="btn btn-conv pull-right">I want to Pledge!</button>
+<p style="padding-top:10px" id="demo"></p>
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+    		<img src="images/qr.jpg" class="img-responsive" style="padding-top:20px"/>
+        </div>
+    <!--business-1-->
+    
+    
+    <div class="clearfix"></div>
+      <!--business-1-->
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-    	<div class="thumbnail thumbnail-borderless">
-        	<img src="images/Revenue.png" height="170" width="170" class="img-responsive">
-            <div class="caption">
-            	<h3 class="text-center">Revenue</h3>
-                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-
-            </div><!--caption-->
-        </div><!--thumbnail-->
+    	<img class="center-block img-responsive img-circle" src="images/brick-house.jpg" height="250" width="250" />
     </div>
-     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-     	<div class="thumbnail thumbnail-borderless">
-        	<img src="images/Community.png" height="170" width="170" class="img-responsive">
-             <div class="caption">
-            	<h3 class="text-center">Community</h3>
-                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-
-            </div><!--caption-->
-        </div><!--thumbnail-->
+    	
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+    	<h3 class="text-center"> Brick House</h3>
+        <p>A 1920s house is the backdrop for a beer garden with craft brews & bourbon, plus a patio & DJs.</p>
+        <span class="btn btn-primary">Amount Pledged so far: .05 btc</span> 
+         <button onclick="myFunction2()" class="btn btn-conv pull-right">I want to Pledge!</button>
+         <p id="demo2"></p>
     </div>
-     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-     	<div class="thumbnail thumbnail-borderless">
-        	<img src="images/Sale.png" height="170" width="170" class="img-responsive">
-             <div class="caption">
-            	<h3 class="text-center">Sales</h3>
-                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-
-            </div><!--caption-->
-        </div><!--thumbnail-->
-    </div>
+    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+    		<img src="images/qr.jpg" style="padding-top:20px"/>
+        </div>
+    <!--business-1-->
+    
 </div>
-<div id="map-canvas"></div>
+ <div id="map-canvas"></div>
+
 
 <div class="container-fluid row-color">
 	<div class="container footer-padding" >
@@ -98,16 +101,28 @@
         <div class="col-lg-3 col-md-7 col-sm-7 col-xs-12">
         	<ul style="list-style:none">
             	<li >
-                	<a style="margin-right:20%; font-size:"><p>Home</p></a>
-                    <a href="business-search.php" style="margin-right:20%"><p>Business Search</p></a>
+                	<a style="margin-right:20%; font-size:" href="index.php"><p>Home</p></a>
+                    <a style="margin-right:20%" href="business-search.php"><p>Business Search</p></a>
                     <a style="margin-right:20%" href="contact.php"><p>Contact</p></a>
                 </li>
             </ul>
         </div>    
     </div><!--container-->
 </div><!--container-fluid-->
+<strong>
+<script>
+function myFunction() {
+    var x;
+    if (confirm('The Wallet is 16Nf8JLaFdPGRg52hDXme66rym5kUpinyh') == true) {
+        x = "Thank you! We will Review your Pledge";
+    } else {
+        x = "You pressed Cancel!";
+    }
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
 
-
+</strong>    
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -162,5 +177,7 @@ function initialize()
 google.maps.event.addDomListener(window, 'load', initialize);
 
     </script>
+
+
 </body>
 </html>
