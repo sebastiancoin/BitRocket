@@ -1,0 +1,321 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/***************************************************
+	0.0 INDEX OF CODE
+***************************************************
+
+	1.0 COMPONENTS CHANGES TO BOOSTRAP
+	--1.01 GLYPHICONS
+	--1.02 DROPDOWNS
+	--1.03 BUTTON GROUPS
+	--1.04 BUTTON DROPDOWNS
+	--1.05 INPUT GROUPS
+	--1.06 NAVS
+	--1.07 NAVBAR
+	--1.08 BREADCRUMBS
+	--1.09 PAGINATION
+	--1.10 LABELS
+	--1.11 BADGES
+	--1.12 JUMBONTRON
+	--1.13 PAGE HEADER
+	--1.14 THUMBNAILS
+	--1.15 ALERTS
+	--1.16 PROGRESS BAR
+	--1.17 MEDIA OBJECTS
+	--1.18 LIST GROUP
+	--1.19 PANELS
+	--1.20 WELLS
+	
+	2.0 CSS CHANGES TO BOOTSTRAP
+	--2.01 GRID SYSTEM
+	--2.02 TYPOGRAPHY
+	--2.03 TABLES
+	--2.04 FORMS
+	--2.05 BUTTONS
+	--2.06 IMAGES
+	--2.07 HELPERS
+	
+	3.00 JAVASCRIPT CHANGES TO BOOTSTRAP
+	--3.01 TRANSITIONS
+	--3.02 MODALS
+	--3.03 DROPDOWN
+	--3.04 SCROLLSPY
+	--3.05 TAB
+	--3.06 TOOLTIP
+	--3.07 POPOVER
+	--3.08 ALERT
+	--3.09 BUTTON
+	--3.10 COLLAPSE
+	--3.11 CAROUSEL
+	--3.12 AFIX
+	
+	4.00 SPECIFIC PAGES
+	--4.01 PAGE 1
+	--4.02 PAGE 2
+	
+	5.00 MEDIA QUERIES
+	
+	6.00 COLORS
+	
+	
+	
+*/	
+
+/***************************************************
+	1.00 COMPONENTS CHANGES TO BOOTSTRAP
+***************************************************/
+
+/**	1.01 GLYPHICONS **/
+
+/** 1.02 DROPDOWNS **/
+
+/** 1.03 BUTTON GROUPS **/
+
+/** 1.04 BUTTON DROPDOWNS **/
+
+/** 1.05 INPUT GROUPS **/
+
+/** 1.06 NAVS **/
+
+/** 1.07 NAVBAR **/
+.navbar {
+	margin-bottom:0px !important;
+}
+.navbar-default{
+	background-color:white !important;
+}
+.navbar > .container .navbar-brand{
+	padding-top:8px;
+}
+/** 1.08 BREADCRUMBS **/
+
+/** 1.09 PAGINATION **/
+
+/** 1.10 LABELS **/
+
+/** 1.11 BADGES **/
+
+/** 1.12 JUMBONTRON **/
+.jumbotron {
+	background-image:url(../images/miami11.jpg);
+	 background-repeat: no-repeat;
+	  background-position: 90% 50%; 
+	  height:450px;
+}
+.jumbotron h1, .jumbotron .h1{
+	font-size:55px !important;
+}
+
+/** 1.13 PAGE HEADER **/
+
+/** 1.14 THUMBNAILS **/
+
+.thumbnail-borderless{
+	border: none !important;
+	border-radius: 0;
+	background-color:inherit;
+}
+
+/** 1.15 ALERTS **/
+
+/** 1.16 PROGRESS BAR **/
+
+/** 1.17 MEDIA OBJECTS **/
+
+/** 1.18 LIST GROUP **/
+
+/** 1.19 PANELS **/
+
+/** 1.20 WELLS **/
+
+
+/***************************************************
+	2.00 CSS CHANGES TO BOOTSTRAP
+***************************************************/
+
+/** 2.01 GRID SYSTEM **/
+
+.spacing-xs{
+	margin-bottom:10px;
+}
+.spacing-sm{
+	margin-bottom:20px;
+}
+.spacing-md{
+	margin-bottom:30px;
+}
+.spacing-lg{
+	margin-bottom:40px;
+}
+
+/** 2.02 TYPOGRAPHY **/
+.footer-padding{
+	padding-top:50px;
+}
+.footer-list{
+	list-style:none
+}
+.container-content{
+	padding-top:50px;
+	padding-bottom:70px;
+}
+
+.row-color{
+	background-color:#f6f6f6;
+}
+	
+p {
+    font-size: 18px;
+    line-height: 1.75;
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+	font-family: 'Roboto', sans-serif;
+}
+
+.inherit-link{
+	color:inherit;
+}
+.inherit-link:hover, .inherit-link:focus, .inherit-link:active{
+	color:inherit;
+}
+.center-block{
+	float:none !important;
+	display:block;
+	margin:0 auto;
+}
+.text-center{
+	text-align:center;
+}
+.row{
+	padding-top:70px;
+	padding-bottom:70px;
+}
+
+/** 2.03 TABLES **/
+
+/** 2.04 FORMS **/
+
+/** 2.05 BUTTONS **/
+.btn-conv{
+	color: #ffffff;
+	background-color:#8CC63E;
+	border-color: #8CC63E;
+}
+
+.btn-w100, .btn-w120, .btn-w140, .btn-w160, .btn-w180, .btn-w200{
+	display:block;
+}
+.btn-w100{
+	width:100px;
+}
+.btn-w120{
+	width:120px;
+}
+.btn-w140{
+	width:140px;
+}
+.btn-w160{
+	width:160px;
+}
+.btn-w180{
+	width:180px;
+}
+.btn-w200{
+	width:200px;
+}
+
+/** 2.06 IMAGES **/
+
+/** 2.07 HELPERS **/
+
+
+/***************************************************
+	3.00 JAVASCRIPT CHANGES TO BOOTSTRAP
+***************************************************/
+
+/** 3.01 TRANSITIONS **/
+
+/** 3.02 MODALS **/
+
+/** 3.03 DROPDOWN **/
+
+/** 3.04 SCROLLSPY **/
+
+/** 3.05 TAB **/
+
+/** 3.06 TOOLTIP **/
+
+/** 3.07 POPOVER **/
+
+/** 3.08 ALERT **/
+
+/** 3.09 BUTTON **/
+
+/** 3.10 COLLAPSE **/
+
+/** 3.11 CAROUSEL **/
+
+/** 3.12 AFIX
+
+
+/***************************************************
+	4.00 SPECIFIC PAGES
+***************************************************/
+
+/** 4.01 PAGE 1 **/
+
+/** 4.02 PAGE 2 **/
+
+
+/***************************************************
+	5.00 MEDIA QUERIES
+***************************************************/
+
+/* Custom, iPhone Retina */ 
+	@media only screen 
+	and (min-width : 320px)
+	and (max-width : 479px) {
+		
+}
+
+	/* Extra Small Devices, Phones */ 
+	@media only screen and 
+	(min-width : 290px)
+	and (max-width : 767px) {	
+
+}
+
+
+	/* Small Devices, Tablets */
+	@media only screen 
+	and (min-width : 768px)
+	and (max-width : 991px) {
+.jumbotron-position{
+	position: relative;
+	top: 100px;
+}
+}
+
+	/* Medium Devices, Desktops */
+	@media only screen 
+	and (min-width : 992px)
+	and (max-width : 1199px) {
+.jumbotron-position{
+	position: relative;
+	top: 150px;
+}	
+}
+
+/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
+.jumbotron-position{
+	position: relative;
+	top: 100px;
+}
+
+/***************************************************
+	6.00 COLORS
+***************************************************/
